@@ -5,6 +5,8 @@
 .container {
   width: 450px;
   margin-left: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
   border: 3px solid none;
   background-color: #f2f3f7;
 }
@@ -17,20 +19,30 @@
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 .email {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding: 10px;
 }
 .password,
 .confpas {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   padding: 10px;
 }
 input[type="text"] {
-  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input[type="password"] {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
 }
 
 h1 {
@@ -45,7 +57,7 @@ p {
   padding-bottom: 20px;
   color: #9c9d9e;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 17px;
 }
 button{
   font-weight: bold;
@@ -56,3 +68,9 @@ button{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
+.checkbox{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9c9d9e;
+  padding: 10px 15px;
+}
+
