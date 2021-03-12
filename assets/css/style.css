@@ -37,12 +37,13 @@ input[type="text"] {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
+  border: 1px solid #c9c9c9;
 }
 input[type="password"] {
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
- 
+  border: 1px solid #c9c9c9;
 }
 
 h1 {
@@ -72,5 +73,6 @@ button{
   font-family: Arial, Helvetica, sans-serif;
   color: #9c9d9e;
   padding: 10px 15px;
+  
 }
 
