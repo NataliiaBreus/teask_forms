@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.container {
+  width: 450px;
+  margin-left: 50px;
+  border: 3px solid none;
+  background-color: #f2f3f7;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+.name {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.email {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.password,
+.confpas {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+input[type="text"] {
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #646568;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 20px;
+}
+p {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #9c9d9e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+button{
+  font-weight: bold;
+  color: white;
+  background-color: #53ab54;
+  padding: 10px 0;
+  margin: 20px 15px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}

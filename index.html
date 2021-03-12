@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Register form</title>
+</head>
+<body>
+  <section class="container">
+<h1>Register</h1>
+<p>Create your account. It's free and only takes a minute.</p>
+<div class="form">
+<form class="name">
+  <input name="firstname" type="text" minlength="2" placeholder="First Name" required/>
+  <input name= "secondname" type="text" minlength="3" placeholder="Second Name" required/>
+</form>
+<form class="email">
+  <input name="email" type="text" placeholder="Email" required/>
+</form>
+<form class="password">
+  <input name="password" type="password" placeholder="Password" required/>
+</form>
+<form class="confpas">
+  <input name="confpass" type="password" placeholder="Confirm Password" required/>
+</form>
+<form class="checkbox">
+  <label>
+    <input type="checkbox" name="accept"/>
+    <span>I accept the Terms of use & Privacy Policy</span>
+  </label>
+</form>
+  <button type="submit">
+Register Now
+  </button>
+</div>
+  </section>
+</body>
+</html>
